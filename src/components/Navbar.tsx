@@ -27,8 +27,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
-        <a href="#" className="font-display text-xl font-bold text-primary">
-          dev<span className="text-foreground">.</span>
+        <a href="#" className="font-display text-xl font-bold text-gradient">
+          AI<span className="text-foreground">dev.</span>
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
