@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Linkedin, Phone } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@alexmorgan.dev", label: "Email" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/navadeep-rudraraju/", label: "LinkedIn" },
+  { icon: Phone, href: "tel:+917396489578", label: "Call Me" },
 ];
 
 const ContactSection = () => {
@@ -27,15 +25,15 @@ const ContactSection = () => {
             <span className="text-gradient">Something Great</span>
           </h2>
           <p className="text-muted-foreground font-body text-lg mb-10 leading-relaxed">
-            Have a project in mind or just want to chat? I'm always open to 
+            Have a project in mind or just want to chat? I'm always open to
             discussing new opportunities and creative ideas.
           </p>
 
           <a
-            href="mailto:hello@alexmorgan.dev"
+            href="tel:+917396489578"
             className="inline-flex px-8 py-4 rounded-full bg-primary text-primary-foreground font-display font-medium text-lg hover:opacity-90 transition-opacity mb-12"
           >
-            Say Hello
+            Get In Touch
           </a>
 
           <div className="flex items-center justify-center gap-6">

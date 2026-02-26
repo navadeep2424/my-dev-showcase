@@ -15,20 +15,16 @@ const AboutSection = () => {
               About
             </p>
             <h2 className="font-display text-4xl sm:text-5xl font-bold mb-6">
-              Crafting the web,
+              Scalable Websites,
               <br />
-              <span className="text-gradient">one pixel at a time.</span>
+              <span className="text-gradient">Intelligent AI Solutions.</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-body leading-relaxed">
               <p>
-                I'm a full-stack developer with 5+ years of experience building modern web applications. 
-                I specialize in React ecosystems and love turning complex problems into elegant, 
-                user-friendly solutions.
+                I’m a full-stack web developer with hands-on experience in building high-performance, scalable, and conversion-focused websites. I specialize in WordPress, React, Next.js, and modern frontend technologies, delivering fast, responsive, and user-friendly digital solutions for businesses across various industries.
               </p>
               <p>
-                When I'm not coding, you'll find me contributing to open source, writing technical 
-                articles, or exploring the latest web technologies. I believe great software is built 
-                at the intersection of design and engineering.
+                Along with development, I design and implement AI-powered automation workflows using tools like n8n and leading LLM APIs to reduce manual work, improve efficiency, and help businesses scale. I’m passionate about performance optimization, SEO, and creating smart systems that drive real business growth.
               </p>
             </div>
           </motion.div>
@@ -41,10 +37,10 @@ const AboutSection = () => {
             className="grid grid-cols-2 gap-6"
           >
             {[
-              { number: "50+", label: "Projects Completed" },
-              { number: "5+", label: "Years Experience" },
-              { number: "30+", label: "Happy Clients" },
-              { number: "10+", label: "Open Source Repos" },
+              { number: "50+", label: "Projects Delivered" },
+              { number: "2+", label: "Years Experience" },
+              { number: "20+", label: "Happy Clients" },
+              { number: "10+", label: "AI Workflows Built" },
             ].map((stat, i) => (
               <div
                 key={stat.label}

@@ -1,15 +1,9 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Sparkles } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover opacity-40" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
-      </div>
-
       <div className="container relative z-10 px-6 pt-24">
         <div className="max-w-4xl">
           <motion.div
@@ -19,18 +13,18 @@ const HeroSection = () => {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-glow bg-secondary/50 backdrop-blur-sm mb-6"
           >
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="font-display text-sm text-primary">AI-Powered Development</span>
+            <span className="font-display text-sm text-primary">Web Developer & AI Automation Engineer</span>
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-[0.95] mb-6"
+            className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[0.95] mb-6"
           >
-            Building the
+            Web Development That
             <br />
-            <span className="text-gradient glow-text">Future Web</span>
+            <span className="text-gradient glow-text">Drives Real Growth</span>
           </motion.h1>
 
           <motion.p
@@ -39,8 +33,8 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="text-lg sm:text-xl text-muted-foreground max-w-xl mb-10 font-body"
           >
-            I leverage AI and modern technologies to build intelligent, 
-            lightning-fast web experiences that push the boundaries of what's possible.
+            From WordPress to React & AI automation workflows, I create fast, user-focused
+            digital experiences that turn visitors into customers.
           </motion.p>
 
           <motion.div
